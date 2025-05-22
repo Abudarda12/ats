@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 30px 5px 25px ;
+    background-color: #FEFEFE;
+    height: 11vh;
+    
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color: #284B96;
+    }
+}
+.nav-btn{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    .inquiry button{
+        font-size: 12px;
+        line-height: 1.2em;
+        border-radius: 4px;
+        background-color: #f5f5f5;
+        color: black;
+        text-align: center;
+        border: none;
+    }
+    .inquiry button:hover{
+        background-color: #284B96;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: .8em;
+    }
+    a:hover{
+        color: #284B96;
+    }
+    .contact-btn button{
+        width: 120px;
+        height: 7vh;
+        color: white;
+        background-color: #283D90;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+    .contact-btn button:hover{
+        background-color: #284B96;
+    }
+}
+.hamsbergur button{
+    display: none;
+    border: none;
+    background-color: #FEFEFE;
+    font-size: 20px;
+    margin-left: 18px;
+}
+#link{display: none;}
+@media (max-width:900px) {
+    .nav-links{
+        display: none;
+    }
+    .inquiry{
+        display: none;
+    }
+    .contact-btn button{
+        width: 100px;
+    }
+    .hamsbergur button{
+        display: block;
+    }
+    #active-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: start;
+        padding: 20px;
+        background-color: #FEFEFE;
+        width: 90vw;
+        list-style: none;
+        gap: 10px;
+       
+        a{
+            text-decoration: none;
+            width: 100%;
+            color: #000;
+        }
+    }
+}

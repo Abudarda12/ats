@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    padding: 20px;
+    background-image: linear-gradient(#FCFDFE,#95B0D4);
+    
+    align-items: center;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: start;
+    font-size: 1.5em;
+}
+.main-left .main-btn{
+    display: flex;
+    flex-direction: column;
+}

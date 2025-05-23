@@ -5,9 +5,9 @@ export default function Hero(){
         <>
          <main>
             <div className="main-left">
-                <h1>Innovating Today <br />
-                    for a Secure and <br />
-                   Sustainable <br /> Tomorrow
+                <h1>Innovating Today
+                    for a Secure and
+                   Sustainable  Tomorrow
                 </h1>
                 <p>
                     Our approach is not just about solving today’s challenges, it’s about shaping a future where businesses thrive with agility, security, and sustainable growth.
@@ -22,9 +22,9 @@ export default function Hero(){
                 </div>
             </div>
             <div className="main-right">
-                <div className="image">
-                     <img src="src\components\image\1-1.png" alt="right image" height={"500px"} />
-                </div>
+                
+                     <img className='image' src="src\components\image\1-1.png" alt="right image" height={"500px"} />
+                
             </div>
          </main>
         </>

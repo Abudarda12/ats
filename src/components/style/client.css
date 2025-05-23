@@ -1,0 +1,15 @@
+.client{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.client-heading {
+     gap: 5px;
+     h3{
+        color: black;
+        background-color: #F5F5F5;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 5px;
+     }
+}

@@ -2,18 +2,58 @@ main{
     display: flex;
     padding: 20px;
     background-image: linear-gradient(#FCFDFE,#95B0D4);
-    
     align-items: center;
+    gap: 10px;
 }
 .main-left{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    text-align: start;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
-.main-left .main-btn{
+.main-btn{
     display: flex;
-    flex-direction: column;
+    gap: 10%;
 }
+.schedule button{
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #283d90;
+    color: white;
+    padding: 13px 22px 13px 22px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+.service button{
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #dee0ff;
+    color:#283d90;
+    padding: 13px 22px 13px 22px;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.service button:hover{
+    background-color: #283d90;
+    color: white;
+}
+.image{
+    -webkit-mask-image: url('../image/mask.webp');
+     -webkit-mask-size: cover;
+     -webkit-mask-position: bottom right;
+}   
+
+@media (max-width:600px) {
+    main{
+        flex-direction: column;
+    }
+    .image{
+        width: 90vw;
+        height: auto;
+    }
+}
+

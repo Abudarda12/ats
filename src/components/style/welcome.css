@@ -23,5 +23,7 @@
     background-color: white;
     color: #283D90;
     width: fit-content;
+    border-radius: 2px;
+    padding: 0px 1px;
     
 }

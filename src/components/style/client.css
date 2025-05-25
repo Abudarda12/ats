@@ -1,7 +1,8 @@
 .client{
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    padding: 8vh;
+    margin: 10vh 0;
 }
 .client-heading {
      gap: 5px;
@@ -13,3 +14,71 @@
         border-radius: 5px;
      }
 }
+.image-client{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    .upper{
+        display: flex;
+        overflow: hidden;
+        gap: 2px;
+        img{
+            border: 1px solid grey;
+            border-radius: 5px;
+            animation: move-image1 5s linear infinite;
+        }
+    }
+    .lower{
+        display: flex;
+        overflow: hidden;
+        gap: 2px;
+        img{
+            border: 1px solid grey;
+            border-radius: 5px;
+            animation: move-image 5s linear infinite;
+        }
+    }
+}
+
+@keyframes move-image{
+           0%{
+             transform: translateX(-400px);
+           }
+           25%{
+            transform: translateX(-300px);
+           }
+           40%{
+            transform: translateX(-200px)
+           }
+           60%{
+            transform: translateX(-100px);
+           }
+           80%{
+            transform: translatex(-50px);
+           }
+           100%{
+            transform: translateX(0px);
+           }
+}
+@keyframes move-image1{
+           0%{
+             transform: translateX(0);
+           }
+           25%{
+            transform: translateX(-100px);
+           }
+           40%{
+            transform: translateX(-100px)
+           }
+           60%{
+            transform: translateX(-150px);
+           }
+           80%{
+            transform: translatex(-150px);
+           }
+           100%{
+            transform: translateX(-200px);
+           }
+}
+

@@ -1,0 +1,123 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  background-image: linear-gradient( to left, #AEC5E5,#E8E6EF );
+}
+.contact-heading{
+  display: flex;
+  flex-direction: column;
+  background-color: #283C91;
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+   border-radius: 5px;
+  h1{
+    background-color: #22337B;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 2px;
+  }
+}
+.contact-lower{
+  display: flex;
+  padding: 10px;
+  .statement{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+  }
+}
+.statement .benefit{
+  display: flex;
+  flex-direction: column;
+  .list{
+    display: flex;
+  }
+}
+.statement .next{
+  display: flex;
+  flex-direction: column;
+  .card-container{
+    display: flex;
+    .card{
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+.form{
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  height: 90vh;
+  margin-top: -180px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form input, .form textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form button{
+  width: 100%;
+  padding: 10px;
+  background-color: #283C91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form button:hover{
+  background-color: #22337B;
+}
+.form h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form label{
+  margin: 10px 0;
+  font-weight: bold;
+}
+.form .form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form .form-group textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form .form-group input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form .form-group input[type="text"],
+.form .form-group input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form .form-group input[type="submit"]{
+  background-color: #283C91;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#firstName, #lastName,#company,#phone,#message{
+  width: 50%;
+  margin: 10px;
+}
